@@ -27,3 +27,5 @@ r::Send {F4}
 ^!Right::Send {Media_Next}
 ^!Left::Send {Media_Prev}
 ^!Space::Send {Media_Play_Pause}
+^!Up::Send   {Volume_Up}
+^!Down::Send   {Volume_Down}
