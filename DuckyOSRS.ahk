@@ -22,6 +22,13 @@ r::Send {F4}
 ^r::Send, {Asc 114}
 #IfWinActive
 
+;only when fortnite is focused
+#IfWinActive,  Fortnite
+;bind escape to f12 and ctrl escape back to a regular escape
+Esc::Send {F12}
+^Esc::Send, {Esc}
+#IfWinActive
+
 
 ;Also configrue some basic media keys for next previous and pause
 ^!Right::Send {Media_Next}
