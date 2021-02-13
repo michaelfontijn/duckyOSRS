@@ -21,3 +21,9 @@ r::Send {F4}
 ^e::Send, {Asc 101}
 ^r::Send, {Asc 114}
 #IfWinActive
+
+
+;Also configrue some basic media keys for next previous and pause
+^!Right::Send {Media_Next}
+^!Left::Send {Media_Prev}
+^!Space::Send {Media_Play_Pause}
