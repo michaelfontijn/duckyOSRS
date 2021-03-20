@@ -9,16 +9,16 @@ SetWorkingDir %A_ScriptDir%
     ;only apply this logic if the capslog is turned on, so it is easy to switch 'profiles'
     #If GetKeyState("CapsLock", "T")
     {
-        ;bind 1-4 to their associated f keys 
-        1::Send {F1}
-        2::Send {F2}
-        3::Send {F3}
-        4::Send {F4}
-        ;reverse of the above when using the ctrl+ 1-4 variation
-        ^1::Send, {1}
-        ^2::Send, {2}
-        ^3::Send, {3}
-        ^4::Send, {4}
+        ;bind q-e to their associated f keys 
+        q::Send {F1}
+        w::Send {F2}
+        e::Send {F3}
+        r::Send {F4}
+        ;reverse of the above when using the ctrl+ q-e variation
+        ^q::Send, {q}
+        ^w::Send, {w}
+        ^e::Send, {e}
+        ^r::Send, {r}
     }
 #IfWinActive
 
